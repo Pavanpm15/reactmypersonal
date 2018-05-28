@@ -1,0 +1,17 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+
+body{
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+  letter-spacing: 3px;
+}

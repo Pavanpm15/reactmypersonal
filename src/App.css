@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.body{
+  font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+
+.App {
+  width: 100%;
+}
+
+.landingpage{
+  background-color: #0404048f;
+}
+
+.black{
+  color: #c3c5c7;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  /* background-color: #222; */
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 3.5em;
+  /* color: #141415; */
+  font-weight: 800;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card-body{
+  background-color: #fff;
+  margin: 10px;
+  max-width: 25%;
+  text-align: center;
+  background: #adadade3;
+  text-transform: capitalize;
+  flex-grow: 1;
+  display: inline-block;
+  height: 250px;;
+}
+
+.body-content {
+  font-size: 13px;
+  margin: 10px;
+  vertical-align: middle;
+  line-height: 12;
+}
+
+.card-name{
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+.card-contents{
+  display: flex;
+}
+
+.card-left-content{
+  margin: 10px;
+  vertical-align: middle;
+  line-height: 10;
+}
+
+.mainproduct{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maincontainer{
+  background: url('./assets/images/mine.jpg') no-repeat center;
+  -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: cover;
+  height: 100vh;
+  overflow-x: hidden !important;
+}
+
+.container{
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hw100{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.no-margin{
+  margin: 0 !important;
+}
+
+.col-align{
+  min-height: 100% !important;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh !important; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.aboutcontainer{
+  background: url('./assets/images/about.jpg') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden !important;
+  text-align: center;
+}
+
+.white{
+  color: #fff;
+}
+
+.aboutme{
+  padding: 10px;
+  padding-top: 5%;
+}
+
+.p-b-10{
+  padding-bottom: 10%;
+}
+
+.linealign{
+  vertical-align: middle;
+  line-height: 2.5;
+}
+
+.card{
+  height: 200px;
+}
+
+.myworkcontainer{
+  background: url('./assets/images/mywork.png') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden !important;
+  text-align: center;
+}
+
+@media (max-width: 576px) { 
+  .aboutcontainer {
+    height: 130vh !important;
+  }
+}
+
+@media (max-width: 768px) { 
+  .aboutcontainer {
+    height: 200vh !important;
+  }
+  .myworkcontainer{
+    height: 260vh !important;
+  }
+  .p-5{
+    padding: 5px;
+  }
+  .contactcontainer{
+    height: 350vh !important;
+  }
+ }
+
+
+
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 360px;
+  height: 400px;
+  background: transparent !important;
+  border: none !important;
+}
+.card .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card .image img {
+  width: 100%;
+  transition: .5s;
+}
+.card:hover .image img {
+  opacity: .5;
+  transform: translateX(30%);/*100%*/
+}
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;/*100%*/
+  height: 100%;
+  background: #a2a2a185;
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card .details .center h1 {
+  margin: 0;
+  padding: 0;
+  color: #ff3636;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card .details .center h1 span {
+  font-size: 14px;
+  color: #262626;
+}
+.card .details .center p {
+  margin: 10px 0;
+  padding: 0;
+  color: #262626;
+}
+.card .details .center ul {
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+}
+.card .details .center ul li {
+  list-style: none;
+  margin: 0 5px;
+  float: left;
+}
+.card .details .center ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transform: .5s;
+}
+.card .details .center ul li a:hover {
+  background: #ff3636;
+}
+
+.navigo{
+    background: url('./assets/images/navigo.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.stohke{
+  background: url('./assets/images/stohke.jpg') no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.click2race{
+  background: url('./assets/images/click2race.jpg') no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.imageshadow{
+  background-color: #42393370;
+  height: 100%;
+}
+
+.contactcontainer{
+  background: url('./assets/images/Website-Design-Background.png') no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden !important;
+  text-align: center;
+}
+
+.red{
+  color: #f44336;
+  padding-right: 10px;
+}
+
+.alinks {
+  font-size: 500%;
+  color: #c3c5c7;
+}
+
+.acontact{
+  color: #085679;
+  font-size: 500%;
+}
+
+.ared{
+  font-size: 120%;
+  color: #040404;
+  overflow: hidden;
+}
+
+.contactcard{
+  background: #9e9e9edb;
+  border-radius: 5px;
+  height: 250px;
+  width: 100%;
+}
+
+.navbar {
+  background: #010310;
+}
+
+.p-b-5{
+  padding-bottom: 5%;
+}
