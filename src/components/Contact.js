@@ -32,28 +32,28 @@ class Contact extends Component {
                     </div>
 
                     <div className="row justify-content-center">
-                        <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 align-self-center">
+                        <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12 align-self-center">
                             <h2 className="App-title white aboutme">CONTACT</h2>
                             <div className="row">
             
-                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5">
+                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5-0">
                                         <div className="contactcard">
                                         <div className="acontact"><FontAwesome.FaLocationArrow /></div>
                                         <span className="ared"> #26 Behind Pepper's Restaurant, Sri Ram temple road Ejipura Bengaluru - 560097</span> 
                                         </div>
                                     </div>
 
-                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5">
+                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5-0">
                                         <div className="contactcard">
                                         <div className="acontact"><FontAwesome.FaPhoneSquare /></div>
                                         <span className="ared"> +91 8197803551</span> 
                                         </div>
                                     </div>
 
-                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5">
+                                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5-0">
                                         <div className="contactcard">
                                         <div className="acontact"><FontAwesome.FaEnvelopeSquare /></div>
-                                        <span className="ared"> nitheeshsalian@gmail.com</span> 
+                                        <span className="ared">nitheeshsalian@gmail.com</span> 
                                         </div>
                                     </div>
                             

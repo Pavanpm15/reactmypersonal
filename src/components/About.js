@@ -30,6 +30,38 @@ class About extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <h3 className="white"> ReactNative</h3>
+                                </div>
+                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
+                                    <Line percent="70" strokeWidth="4" strokeColor="#D3D3D3" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <h3 className="white"> React JS</h3>
+                                </div>
+                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
+                                    <Line percent="70" strokeWidth="4" strokeColor="#D3D3D3" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <h3 className="white">Redux</h3>
+                                </div>
+                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
+                                    <Line percent="60" strokeWidth="4" strokeColor="#D3D3D3" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                    <h3 className="white">Redux-Saga</h3>
+                                </div>
+                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
+                                    <Line percent="50" strokeWidth="4" strokeColor="#D3D3D3" />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <h3 className="white"> NodeJs</h3>
                                 </div>
                                 <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
@@ -70,14 +102,6 @@ class About extends Component {
                             </div>
                             <div className="row">
                                 <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h3 className="white"> React</h3>
-                                </div>
-                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
-                                    <Line percent="30" strokeWidth="4" strokeColor="#D3D3D3" />
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                                     <h3 className="white"> Bootsrap</h3>
                                 </div>
                                 <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
@@ -114,14 +138,6 @@ class About extends Component {
                                 </div>
                                 <div className="col-8 linealign">
                                     <Line percent="50" strokeWidth="4" strokeColor="#D3D3D3" />
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                    <h3 className="white"> ReactNative</h3>
-                                </div>
-                                <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12 linealign">
-                                    <Line percent="30" strokeWidth="4" strokeColor="#D3D3D3" />
                                 </div>
                             </div>
                         </div>

@@ -7,10 +7,29 @@ class Mywork extends Component {
             <div className="myworkcontainer">
                 <div className="container-fluid">
                     <div className="row justify-content-center">
-                        <div className="col-10 align-self-center">
+                        <div className="col-12 align-self-center">
                             <h2 className="App-title white aboutme">Portfolio</h2>
                             <div className="row no-margin">
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5">
+                                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 p-5">
+
+                                    <div className="card">
+                                        <div className="image">
+                                            <div className="mo" >
+                                                <div className="imageshadow"></div>
+                                            </div>
+                                        </div>
+                                        <div className="details">
+                                            <div className="center">
+                                                <h1>MobileOffize<br /></h1>
+                                                <p>MobileOffize is your work ToolKit with chat, task, report and know integrated in one mobile app with an intuitive user experience. Our team is driven by the quest to make your life more convenient and productive at work.</p>
+                                                <a href="https://mobileoffize.com/" target="_blank" rel="noopener noreferrer">www.mobileoffize.com/</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 p-5">
 
                                     <div className="card">
                                         <div className="image">
@@ -28,7 +47,7 @@ class Mywork extends Component {
                                     </div>
 
                                 </div>
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5">
+                                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 p-5">
                                     <div className="card">
                                         <div className="image">
                                             <div className="stohke" >
@@ -44,8 +63,8 @@ class Mywork extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 p-5">
-                                <div className="card">
+                                <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 p-5">
+                                    <div className="card">
                                         <div className="image">
                                             <div className="click2race" >
                                                 <div className="imageshadow"></div>

@@ -125,7 +125,7 @@
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
   overflow-x: hidden !important;
   text-align: center;
 }
@@ -171,12 +171,12 @@
 
 @media (max-width: 768px) { 
   .aboutcontainer {
-    height: 200vh !important;
+    height: 220vh !important;
   }
   .myworkcontainer{
-    height: 260vh !important;
+    height: 280vh !important;
   }
-  .p-5{
+  .p-5-0{
     padding: 5px;
   }
   .contactcontainer{
@@ -276,6 +276,12 @@
     height: 100%;
 }
 
+.mo{
+  background: url('./assets/images/mo.png') no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
 .stohke{
   background: url('./assets/images/stohke.jpg') no-repeat center;
   background-size: cover;
@@ -299,7 +305,7 @@
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
   overflow-x: hidden !important;
   text-align: center;
 }
@@ -330,6 +336,7 @@
   border-radius: 5px;
   height: 250px;
   width: 100%;
+  text-align: center;
 }
 
 .navbar {
